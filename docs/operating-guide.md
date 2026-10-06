@@ -26,7 +26,7 @@
 ```
 
 - README 푸시가 아직이면: README 커밋/푸시 + 커밋 author 전수검사
-  (Co-Authored-By 트레일러 금지, author=ingon1026) 먼저.
+  (Co-Authored-By 트레일러 금지, author=ingon-kim) 먼저.
 - 레포는 private 유지. public 전환은 M4 체크리스트(SPEC §5.6) 통과 후.
 
 ## 2. 평상시 운영 멘트 (이게 전부)
@@ -81,7 +81,7 @@
   - **열린 문제(미해결)**: ORB 런타임 맵 ↔ COLMAP 렌더 품질 화해 = **Sim3 1회 정렬**(둘 다 같은 키프레임 포즈 보유). XR 런타임 단계서 결정.
 - 다음: **M2 재캡처**(capture-guide 교훈 반영: 걸으며 궤적 3m+, 제자리회전 금지, 시작/끝 사람 프레임 인 금지). 도착 시 `01_extract_bag.py bag` → 02~08.
 - 미해결: **ORB 경로만 hold-out 발산**(COLMAP은 동일설정에서 안정) — 안전장치로 회피했으나 근본원인 미규명, M2 재발 시 조사.
-- GitHub: ingon1026/xr-splat (private). 푸시 전 히스토리 대용량 파일 검사 필수 (특히 ORBvoc).
+- GitHub: ingon-kim/xr-splat (private). 푸시 전 히스토리 대용량 파일 검사 필수 (특히 ORBvoc).
 
 ## 5. 나중에 필요해질 지식 (대화에서 나온 결론 요약)
 

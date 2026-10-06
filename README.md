@@ -143,7 +143,7 @@ Demo `.ply` assets will be distributed via [GitHub Releases](../../releases).
 Tested on **WSL2 (Ubuntu 24.04)** with an NVIDIA GPU (CUDA 12.1).
 
 ```bash
-git clone --recursive https://github.com/ingon1026/xr-splat.git
+git clone --recursive https://github.com/ingon-kim/xr-splat.git
 cd xr-splat
 conda env create -f environment.yml
 conda activate xrsplat

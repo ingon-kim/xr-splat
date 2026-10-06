@@ -11,7 +11,7 @@ short_description: Decoupled SLAM x Gaussian Splatting in your browser
 
 # xr-splat demo
 
-Interactive Gaussian-Splatting scene built by **[xr-splat](https://github.com/ingon1026/xr-splat)** —
+Interactive Gaussian-Splatting scene built by **[xr-splat](https://github.com/ingon-kim/xr-splat)** —
 a decoupled **ORB-SLAM3 × gsplat** pipeline: SLAM estimates the poses, Gaussian Splatting is
 trained on them frozen, so the tracking map and the photoreal map share **one coordinate frame**.
 
